@@ -7,21 +7,26 @@
 
 This repository contains the data and code for our paper:
 
-> Authors, (YYYY). *Title of your paper goes here*. Name of journal/book
-> <https://doi.org/xxx/xxx>
+> Eduardo Paixão; João Marreiros; Laure Dubreuil; Walter Gneisinger;
+> Geoff Carver; Marion Prévost; Yossi Zaidner, (2021).
+> *`Functional analysis of the Middle Paleolithic Ground Stone Tools from Unit V of Nesher Ramla (Central Levante): the application of a multi-scale use-wear approach`*.
+> Quaternary International <https://doi.org/xxx/xxx>
 
 Our pre-print is online here:
 
-> Authors, (YYYY). *Title of your paper goes here*. Name of
-> journal/book, Accessed 16 Mar 2021. Online at
-> <https://doi.org/xxx/xxx>
+> Authors, (YYYY). *Functional analysis of the Middle Paleolithic Ground
+> Stone Tools from Unit V of Nesher Ramla (Central Levante): the
+> application of a multi-scale use-wear approach*. Name of journal/book,
+> Accessed 16 Mar 2021. Online at <https://doi.org/xxx/xxx>
 
 ### How to cite
 
 Please cite this compendium as:
 
-> Authors, (2021). *Compendium of R code and data for Title of your
-> paper goes here*. Accessed 16 Mar 2021. Online at
+> Authors, (2021). *Compendium of R code and data for Functional
+> analysis of the Middle Paleolithic Ground Stone Tools from Unit V of
+> Nesher Ramla (Central Levante): the application of a multi-scale
+> use-wear approach*. Accessed 16 Mar 2021. Online at
 > <https://doi.org/xxx/xxx>
 
 ## Contents
