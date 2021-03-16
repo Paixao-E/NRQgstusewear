@@ -1,0 +1,417 @@
+---
+title: "SOM3 - Read and plot data"
+author: "Paixao et al. 2021. Functional analysis of the Middle Paleolithic Ground Stone Tools from Unit V of Nesher Ramla (Central Levante): the application of a multi-scale use-wear approach. Quaternary International"
+date: "`r Sys.time()`"
+output:
+  html_document: default
+  word_document: default
+  pdf_document: default
+geometry: margin=1in
+fontsize: 9pt
+---
+
+\pagenumbering{gobble}
+
+```{r Knitr Options, include=F}
+knitr::opts_chunk$set(comment = NA, message = FALSE, indent = "", error = TRUE)
+
+```
+
+__Brief description of the script__
+
+This R markdown document reads, summarizes and plots data for: *Paixao et al. 2021. Functional analysis of the Middle Paleolithic Ground Stone Tools from Unit V of Nesher Ramla (Central Levante): the application of a multi-scale use-wear approach. Quaternary International*. The document contains:
+
+1. Manuscript's tables, 
+2. Manuscript's figures (data plots),
+3. Supplementary material, including extra tables and figures (data plots)
+
+This R project and respective script follows the procedures described by Marwick et al. 2017. To compile this markdown document do not delete or move files from their original folders.
+Please note that the tables and figures numbering in this file do not match the numbering in the original manuscript.
+
+For any questions, comments and inputs, please contact:
+
+Eduardo Paixão. paixao@rgzm.de, or João Marreiros. marreiros@rgzm.de
+
+# Load data into R project
+
+*The imported files are in: `r paste0("../data/raw_data")`*
+
+*All figures will be saved in: ´r past0("../figures")'*
+
+*All tables will be saved in: ´r past0("../data/derived_data")'*
+
+
+```{r}
+
+# Load required libraries
+
+library(tidyverse)
+library(utils)
+library(knitr)
+library(janitor)
+library(flextable)
+library(GGally)
+library(doBy)
+library(ggpubr)
+library(tools)
+
+# See your WD and update the following paths
+# getwd()
+
+# Load data from .csv
+db1 <- read.csv("../raw_data/generaldb.csv", header=T, ",") # general database
+db2 <- read.csv("../raw_data/functionaldb.csv", header=T, ",") # dataset related to functional 
+
+# On db1, convert strings to numeric and replace "," by "."
+db1$length <- as.numeric(gsub(",", ".", db1$length))
+db1$width <- as.numeric(gsub(",", ".", db1$width))
+db1$thickness <- as.numeric(gsub(",", ".", db1$thickness))
+db1$weight <- as.numeric(gsub(",", ".", db1$weight))
+
+# Filter general dataset (only Nesher Ramla is selected here)
+db1nr <- filter(db1, site  == "Nesher Ramla")
+
+data_file <- list.files("../analysis/raw_data/", pattern = "\\.csv$", full.names = TRUE)
+
+```
+
+\newpage
+
+
+# Tables
+## General Inventory
+```{r results = "asis"}
+# Nesher Ramla
+
+inventory <- db1nr %>%
+  group_by(raw_material, support) %>%
+  summarize(total = n()) %>%
+  pivot_wider(names_from = "support",
+              values_from = "total",
+              values_fill = 0) %>%
+  adorn_totals(where = c("row", "col"), fill = "") %>%
+  rename("Raw material" = raw_material, Boulder = boulder, Block = block)
+write_csv(inventory, "../derived_data/generalinventory_nesher.csv")
+
+table <- flextable(inventory)
+table <- set_caption(table,caption = "General inventory of Grounds Stone tools 
+            from Nesher Layer 5")
+knit_print(table)
+
+```
+
+## Typological inventory
+```{r results = "asis"}
+
+# Nesher Ramla
+type <- db1nr %>%
+  group_by(raw_material, typology) %>%
+  summarize(total = n()) %>%
+  pivot_wider(names_from = "typology",
+              values_from = "total",
+              values_fill = 0) %>%
+  adorn_totals(where = c("row", "col"), fill = "") %>%
+  rename("Raw material" = raw_material)
+write_csv(type, "../derived_data/typeinventory_nesher.csv")
+
+table <- flextable(type)
+table <- set_caption(table,caption = "Typological inventory by raw material from Nesher Ramla, Layer 5")
+knit_print(table)
+
+```
+
+## Morphometric analysis
+```{r, fig.height = 5.5, fig.width = 8.5, res = 300}
+
+# Nesher Ramla
+
+ggplot(db1nr, aes (x = length, y = width, color = support)) + 
+  geom_point(size=0.5) +
+  stat_ellipse() +
+  labs(x="Length (mm)", y="Width (mm)", color = "Support") +
+  facet_wrap(vars(typology)) +
+  scale_color_discrete(labels = c("Block", "Boulder", "Pebble"))
+
+ggsave("../plots/metrics_nr.png")
+
+ggplot(db1nr, aes(x = support, y = weight)) + 
+  geom_boxplot() + 
+  labs(x="Typology", y="Weight (g)") +
+  facet_wrap(vars(typology)) +
+    scale_x_discrete(labels = c('Block','Boulder','Pebble'))
+
+ggsave("../plots/weight_nr.png")
+
+```
+\newpage
+
+## Use-wear macro damage, first observations
+```{r results = "asis"}
+
+# Nesher Ramla
+
+# sampling observation with macro wear traces
+damagenr <- filter(db1nr, usewear_macro == 'yes')
+
+# Use-wear damage by tool typology 
+
+macrodamage <- damagenr %>%
+  group_by(typology, usewear_type) %>%
+  summarize(total = n()) %>%
+  pivot_wider(names_from = "usewear_type",
+              values_from = "total",
+              values_fill = 0) %>%
+  adorn_totals(where = c("row", "col"), fill = "") %>%
+  rename("Typology" = typology, Mixed = mix, "Impact marks" = pecking, 
+         Polish = polish, Striations = striations)
+write_csv(macrodamage, "../derived_data/macrodamage_nr.csv")
+
+table <- flextable(macrodamage)
+table <- set_caption(table,caption = "Use-wear damage 
+            organized by typology, Nesher Ramla - Layer 5")
+knit_print(table)
+
+```
+
+## Macro wear analysis
+```{r results = "asis"}
+
+# Nesher Ramla
+
+# Macro wear traces by tool typology 
+
+macrowear <- db2nr %>%
+  filter(!is.na(MACROTYPE)) %>%
+  group_by(TYPOLOGY, MACROTYPE) %>%
+  summarize(total = n()) %>%
+  pivot_wider(names_from = "MACROTYPE",
+              values_from = "total",
+              values_fill = 0) %>%
+  adorn_totals(where = c("row", "col"), fill = "") %>%
+  rename("Typology" = TYPOLOGY, "Type 1" = "1", "Type 2" = "2")
+write_csv(macrowear, "../derived_data/macrowear_nr.csv")
+
+table <- flextable(macrowear)
+table <- set_caption(table,caption = "Macro wear traces 
+            organized by typology, Nesher Ramla - Layer 5")
+knit_print(table)
+
+```
+
+## Micro wear analysis
+```{r results = "asis"}
+
+# Using db2 dataset, which contains all micro wear observations
+# This only applies to Nesher Ramla (see Methods and Results chapter for more info)
+
+microwear <- db2nr %>%
+  filter(MICROTYPE %in% c("A", "B","C","D")) %>%
+  group_by(TYPOLOGY, MICROTYPE) %>%
+  summarize(total = n()) %>%
+  pivot_wider(names_from = "MICROTYPE",
+              values_from = "total",
+              values_fill = 0) %>%
+  adorn_totals(where = c("row", "col"), fill = "")%>%
+  rename("Typology" = TYPOLOGY)
+write_csv(microwear, "../derived_data/tab6.csv")
+
+table <- flextable(microwear)
+table <- set_caption(table,caption = "Micro wear type 
+            organized by typology, Nesher Ramla - Layer 5")
+knit_print(table)
+
+```
+
+## Correlation between macro and micro wear traces
+```{r results = "asis"}
+
+# sampling observation with macro wear traces type 1
+# This only applies to Nesher Ramla (see Methods and Results chapter for more info)
+
+macro1 <- db2nr %>%
+  filter(MACROTYPE == "1", MICROTYPE %in% c("A", "B","C","D")) %>%
+  group_by(TYPOLOGY, MICROTYPE) %>%
+  summarize(total = n()) %>%
+  pivot_wider(names_from = "MICROTYPE",
+              values_from = "total",
+              values_fill = 0) %>%
+  rename("Typology" = TYPOLOGY) %>%
+  adorn_totals(where = c("row", "col"), fill = "")
+write_csv(microwear, "../derived_data/macro1&micro_nr.csv")
+
+table <- flextable(macro1)
+table <- set_caption(table,caption = "Micro wear traces associated with Macro traces type 1, and organized by typology, Nesher Ramla - Layer 5")
+knit_print(table)
+
+# sampling observation with macro wear traces type 2
+# This only applies to Nesher Ramla (see Methods and Results chapter for more info)
+
+macro2 <- db2nr %>%
+  filter(MACROTYPE == "2", MICROTYPE %in% c("A", "B","C","D")) %>%
+  group_by(TYPOLOGY, MICROTYPE) %>%
+  summarize(total = n()) %>%
+  pivot_wider(names_from = "MICROTYPE",
+              values_from = "total",
+              values_fill = 0) %>%
+  rename("Typology" = TYPOLOGY) %>%
+  adorn_totals(where = c("row", "col"), fill = "")
+write_csv(microwear, "../derived_data/macro2&micro_nr.csv")
+
+table <- flextable(macro2)
+table <- set_caption(table,caption = "Micro wear traces associated with Macro traces type 2, and organized by typology, Nesher Ramla - Layer 5")
+knit_print(table)
+
+```
+
+## Relation between different active areas and macro wear traces within and between tools
+```{r, results = "asis"}
+
+# Nesher Ramla
+# 2 impact areas
+
+a <- filter(db2nr, WEAR2 == "yes")
+a <- select(a, TYPOLOGY, WEAR1_MARKS_TYPE, WEAR2_MARKS_TYPE)
+b <- a %>%
+  unite(a, WEAR1_MARKS_TYPE, WEAR2_MARKS_TYPE, sep = "/")
+
+amostra <- b %>%
+ count(TYPOLOGY, a)
+
+sampled <- spread(amostra, key = a, value = n)
+sampled[is.na(sampled)] <- 0
+
+twoimpac <- sampled %>%
+  adorn_totals(where = c("row", "col"), fill = "")
+
+table <- flextable(twoimpac)
+table <- set_caption(table,caption = "Tools with 2 active areas 
+            with macro wear traces, Nesher Ramla - Layer 5")
+knit_print(table)
+
+# 3 impact areas
+
+a <- filter(db2nr, WEAR3 == "yes")
+a <- select(a, TYPOLOGY, WEAR1_MARKS_TYPE, WEAR2_MARKS_TYPE, WEAR3_MARKS_TYPE)
+b <- a %>%
+  unite(a, WEAR1_MARKS_TYPE, WEAR2_MARKS_TYPE, WEAR3_MARKS_TYPE, sep = "/")
+
+amostra <- b %>%
+ count(TYPOLOGY, a)
+
+sampled <- spread(amostra, key = a, value = n)
+sampled[is.na(sampled)] <- 0
+
+threeimpac <- sampled %>%
+  adorn_totals(where = c("row", "col"), fill = "")
+
+table <- flextable(threeimpac)
+table <- set_caption(table,caption = "Tools with 3 active areas 
+            with macro wear traces, Nesher Ramla - Layer 5")
+knit_print(table)
+
+# 4 impact areas
+
+a <- filter(db2nr, WEAR4_ == "yes")
+a <- select(a, TYPOLOGY, WEAR1_MARKS_TYPE, WEAR2_MARKS_TYPE,
+            WEAR3_MARKS_TYPE, WEAR4_MARKS_TYPE)
+b <- a %>%
+  unite(a, WEAR1_MARKS_TYPE, WEAR2_MARKS_TYPE, WEAR3_MARKS_TYPE,
+        WEAR4_MARKS_TYPE, sep = "/")
+
+amostra <- b %>%
+ count(TYPOLOGY, a)
+
+sampled <- spread(amostra, key = a, value = n)
+sampled[is.na(sampled)] <- 0
+
+fourimpac <- sampled %>%
+  adorn_totals(where = c("row", "col"), fill = "")
+
+
+table <- flextable(fourimpac)
+table <- set_caption(table,caption = "Tools with 4 active areas with 
+            macro wear traces, Nesher Ramla - Layer 5")
+knit_print(table)
+
+# Use-wear location, files for GIS spatial analysis
+
+# Hammerstones
+
+a <- filter(db2nr, TYPOLOGY == "Hammerstone")
+
+a <- select(a, WEAR1_LOCATION, WEAR1_MARKS_TYPE, WEAR2_MARKS_TYPE, WEAR2_LOCATION,
+            WEAR3_MARKS_TYPE, WEAR3_LOCATION,
+            WEAR4_MARKS_TYPE, WEAR4_LOCATION)
+b <- a %>%
+  unite(a, WEAR1_MARKS_TYPE, WEAR2_MARKS_TYPE, WEAR3_MARKS_TYPE,
+        WEAR4_MARKS_TYPE, sep = "/")
+
+amostra <- b %>%
+ count(WEAR1_LOCATION, WEAR2_LOCATION,
+       WEAR3_LOCATION, WEAR4_LOCATION, a)
+
+sampled <- spread(amostra, key = a, value = n)
+sampled[is.na(sampled)] <- 0
+
+twoimpac <- sampled %>%
+  rename("1st area" = WEAR1_LOCATION, "2nd area" = WEAR2_LOCATION, "3rd area" = WEAR3_LOCATION,
+         "4th area" = WEAR4_LOCATION) %>%
+  adorn_totals(where = c("row", "col"), fill = "")
+
+table <- flextable(twoimpac)
+table <- set_caption(table,caption = "Location of use-wear traces on Hammerstones, Nesher Ramla")
+knit_print(table)
+
+# Choppers
+a <- filter(db2nr, TYPOLOGY == "Chopper")
+
+a <- select(a, WEAR1_LOCATION, WEAR1_MARKS_TYPE, WEAR2_MARKS_TYPE, WEAR2_LOCATION)
+b <- a %>%
+  unite(a, WEAR1_MARKS_TYPE, WEAR2_MARKS_TYPE, sep = "/")
+
+amostra <- b %>%
+ count(WEAR1_LOCATION, WEAR2_LOCATION,a)
+
+sampled <- spread(amostra, key = a, value = n)
+sampled[is.na(sampled)] <- 0
+
+twoimpac <- sampled %>%
+  rename("1st area" = WEAR1_LOCATION, "2nd area" = WEAR2_LOCATION) %>%
+  adorn_totals(where = c("row", "col"), fill = "")
+
+table <- flextable(twoimpac)
+table <- set_caption(table,caption = "Location of use-wear traces on Choppers, Nesher Ramla")
+knit_print(table)
+
+# Anvils
+a <- filter(db2nr, TYPOLOGY == "Anvil")
+
+a <- select(a, WEAR1_LOCATION, WEAR1_MARKS_TYPE, WEAR2_MARKS_TYPE, WEAR2_LOCATION,
+            WEAR3_MARKS_TYPE, WEAR3_LOCATION)
+b <- a %>%
+  unite(a, WEAR1_MARKS_TYPE, WEAR2_MARKS_TYPE,
+        WEAR3_MARKS_TYPE, sep = "/")
+
+amostra <- b %>%
+ count(WEAR1_LOCATION, WEAR2_LOCATION,
+       WEAR3_LOCATION, a)
+
+sampled <- spread(amostra, key = a, value = n)
+sampled[is.na(sampled)] <- 0
+
+twoimpac <- sampled %>%
+  rename("1st area" = WEAR1_LOCATION, "2nd area" = WEAR2_LOCATION, "3rd area" = WEAR3_LOCATION) %>%
+  adorn_totals(where = c("row", "col"), fill = "")
+
+table <- flextable(twoimpac)
+table <- set_caption(table,caption = "Location of use-wear traces on Anvils, Nesher Ramla")
+knit_print(table)
+
+```
+
+# End and Session info
+```{r}
+sessionInfo()
+```
+
+
