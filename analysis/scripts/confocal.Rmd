@@ -198,7 +198,7 @@ data(confoarch, package = "reshape")
 # Height parameters
 
 ggpairs(data=confoarch,
-        columns = c(21:26),
+        columns = c(21:27),
         cardinality_threshold = 30,
         mapping = ggplot2::aes(color = workedmaterial),
         lower = list(continuous = wrap("points", alpha = 0.5, size = 1)),
