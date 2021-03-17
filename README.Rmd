@@ -11,7 +11,7 @@ knitr::opts_chunk$set(
   fig.path = "README-"
 )
 # Please put your title here to include it in the file below.
-Title <- "Functional analysis of the Middle Paleolithic Ground Stone Tools from Unit V of Nesher Ramla (Central Levante): the application of a multi-scale use-wear approach"
+Title <- "The Middle Paleolithic Ground Stones Tools of Nesher Ramla Unit V (Southern Levant): a multi-scale use-wear approach for assessing the assemblage functional variability"
 ```
 
 # NRQgstusewear
@@ -20,7 +20,7 @@ Title <- "Functional analysis of the Middle Paleolithic Ground Stone Tools from 
 
 This repository contains the data and code for our paper:
 
-> Eduardo Paixão; João Marreiros; Laure Dubreuil; Walter Gneisinger; Geoff Carver; Marion Prévost; Yossi Zaidner, (2021). _`Functional analysis of the Middle Paleolithic Ground Stone Tools from Unit V of Nesher Ramla (Central Levante): the application of a multi-scale use-wear approach`_. Quaternary International <https://doi.org/xxx/xxx>
+> Eduardo Paixão; João Marreiros; Laure Dubreuil; Walter Gneisinger; Geoff Carver; Marion Prévost; Yossi Zaidner, (2021). _`The Middle Paleolithic Ground Stones Tools of Nesher Ramla Unit V (Southern Levant): a multi-scale use-wear approach for assessing the assemblage functional variability`_. Quaternary International <https://doi.org/xxx/xxx>
 
 Our pre-print is online here:
 

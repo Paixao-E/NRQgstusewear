@@ -1,6 +1,6 @@
 ---
-title: "SOM3 - Read and plot data"
-author: "Paixao et al. 2021. Functional analysis of the Middle Paleolithic Ground Stone Tools from Unit V of Nesher Ramla (Central Levante): the application of a multi-scale use-wear approach. Quaternary International"
+title: "SOM3 - Reading and ploting data"
+author: "Paixao et al. 2021. The Middle Paleolithic Ground Stones Tools of Nesher Ramla Unit V (Southern Levant): a multi-scale use-wear approach for assessing the assemblage functional variability. Quaternary International"
 date: "`r Sys.time()`"
 output:
   html_document: default

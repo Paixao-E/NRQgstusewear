@@ -1,6 +1,6 @@
 ---
-title: "SOM4 - Read and plot Confocal data"
-author: "Paixao et al. 2021. Functional analysis of the Middle Paleolithic Ground Stone Tools from Unit V of Nesher Ramla (Central Levante): the application of a multi-scale use-wear approach. Quaternary International"
+title: "SOM4 - Reading and ploting Confocal data"
+author: "Paixao et al. 2021. The Middle Paleolithic Ground Stones Tools of Nesher Ramla Unit V (Southern Levant): a multi-scale use-wear approach for assessing the assemblage functional variability. Quaternary International"
 date: "`r Sys.time()`"
 output:
   html_document: default
@@ -126,30 +126,6 @@ for (i in num.var) {
 	       height = 21, units = "cm" )
 }
 
-# Comparing archaeological and experimental
-
-# Loop for plotting all surface texture parameters
-
-for (i in num.var) cat("[",i,"] ", names(confocaldataarch)[i], "\n", sep = "")
-	
-for (i in num.var) {
-  p <- ggplot(data = confocaldataarch, aes_string(x = "workedmaterial", y = names(confocaldataarch)[i],
-	                                        colour = "sample")) + 
-	     geom_boxplot() +
-	     # geom_line(aes(group = motion)) +
-	     theme_classic() +
-	     labs(colour = "sample") +
-	     # facet_wrap(~ sample) +
-	     labs(x = "material", y = gsub("\\.", " ", names(confocaldataarch)[i])) +
-	     scale_colour_hue(h = c(25,225), limits = levels(confocaldataarch[["sample"]]))
-  print(p)
-  
-  # saves the plots 
-  file_out <- paste0(file_path_sans_ext(info_in[["file"]]), "_plot_",
-	                   names(confocaldataarch)[i], ".pdf")
-	ggsave(filename = file_out, plot = p, path = "../plots", device = "pdf", width = 26,
-	       height = 21, units = "cm" )
-}
 ```
 
 ## Scatterplots of selected variables combined by "Worked material" and "Motion"
@@ -208,62 +184,6 @@ ggarrange(Sa_Sq, Sq_Vmc, furrows, ep_As, common.legend = TRUE, legend = "bottom"
 
 ggsave("../plots/scatterplots.png")
 
-# Comparing archaeological and experimental
-
-# Sa vs. Sq
-
-Sa_Sq <- ggplot(data = confocaldataarch) +  
-         geom_point(mapping = aes(x = Sa, y = Sq, colour = workedmaterial)) +
-         theme_classic() +
-         labs(colour = "workedmaterial") +
-         facet_wrap(~ sample) +
-         scale_colour_hue(h = c(25, 230)) 
-print(Sa_Sq)
-file_out <- paste0(file_path_sans_ext(info_in[["file"]]), "_scatterplot_Sa-Sq", ".pdf")
-ggsave(filename = file_out, plot = Sa_Sq, path = "../plots", device = "pdf")
-
-# epLsar vs. Asfc
-
-ep_As <- ggplot(data = confocaldataarch) +  
-         geom_point(mapping = aes(x = Fractal.complexity.Asfc, y = Lengthscale.anisotropy.Sfrax.epLsar, colour = workedmaterial)) +
-         theme_classic() +
-         labs(colour = "workedmaterial") +
-         facet_wrap(~ sample) +
-         scale_colour_hue(h = c(25, 230)) 
-print(ep_As)
-file_out <- paste0(file_path_sans_ext(info_in[["file"]]), "_scatterplot_Asfc-epLsar", ".pdf")
-ggsave(filename = file_out, plot = ep_As, path = "../plots", device = "pdf")
-
-# Sq vs. Vmc
-
-Sq_Vmc <- ggplot(data = confocaldataarch) +  
-          geom_point(mapping = aes(x = Sq, y = Vmc, colour = workedmaterial)) +
-          theme_classic() +
-          labs(colour = "workedmaterial") +
-          facet_wrap(~ sample) +
-          scale_colour_hue(h = c(25, 230))  
-print(Sq_Vmc)
-file_out <- paste0(file_path_sans_ext(info_in[["file"]]), "_scatterplot_Sq-Vmc", ".pdf")
-ggsave(filename = file_out, plot = Sq_Vmc, path = "../plots", device = "pdf")
-
-# Mean depth of furrows vs. mean density of furrows
-
-furrows <- ggplot(data = confocaldataarch) +  
-           geom_point(mapping = aes(x = Mean.depth.of.furrows, y = Mean.density.of.furrows,
-                                    colour = workedmaterial)) +
-           theme_classic() +
-           labs(colour = "workedmaterial", x = "Mean depth of furrows", y = "Mean density of furrows") +
-           facet_wrap(~ sample) +
-           scale_colour_hue(h = c(25, 230))
-print(furrows)
-file_out <- paste0(file_path_sans_ext(info_in[["file"]]), "_scatterplot_furrows", ".pdf")
-ggsave(filename = file_out, plot = furrows, path = "../plots", device = "pdf")
-
-# combine all in a single image
-
-ggarrange(Sa_Sq, Sq_Vmc, furrows, ep_As, common.legend = TRUE, legend = "bottom")
-
-ggsave("../plots/scatterplots.png")
 
 ```
 
@@ -308,39 +228,6 @@ ggpairs(data=confoarch,
 ggsave("../plots/confocalarchvolume_matrix.png")
 
 
-# Comparing archaeological and experimental
-
-# Height parameters
-
-ggpairs(data=confocaldataarch,
-        columns = c(21:26),
-        cardinality_threshold = 30,
-        mapping = ggplot2::aes(color = workedmaterial, shape = sample),
-        lower = list(continuous = wrap("points", alpha = 0.5, size = 1)),
-        upper = list(continuous = "blank"),
-        legend = c(2,1)
-        ) +
-
-    theme(legend.position = "right") +
-  labs(fill = "Micro polish type")
-
-ggsave("../plots/confocalarcharea_matrix.png")
-
-# Volume parameters
-
-ggpairs(data=confocaldataarch,
-        columns = c(36:41),
-        cardinality_threshold = 30,
-        mapping = ggplot2::aes(color = workedmaterial, shape = sample),
-        lower = list(continuous = wrap("points", alpha = 0.5, size = 1)),
-        upper = list(continuous = "blank"),
-        legend = c(2,1)
-        ) +
-
-    theme(legend.position = "right") +
-  labs(fill = "Micro polish type")
-
-ggsave("../plots/confocalarchvolume_matrix.png")
 
 ```
 
@@ -420,75 +307,7 @@ ggarrange(p8, p9, p10, p11, p12, p13, common.legend = TRUE, font.label = list(si
 
 ggsave("../plots/confostatarchvolume_boxplots.png")
 
-# Comparing archaeological and experimental
 
-# first Height parameters
-
-heightconfostats <- select(confostatsarch,sample,workedmaterial, Sq.mean,Ssk.mean,Sku.mean,Sp.mean,Sv.mean,Sz.mean,Sa.mean)
-
-p1 <- ggplot(heightconfostats, aes(x=workedmaterial, y=Sq.mean, colour=workedmaterial)) + 
-  geom_boxplot() +
-  labs(x="", colour="Micro polish")
-
-p2 <- ggplot(heightconfostats, aes(x=workedmaterial, y=Ssk.mean, colour=workedmaterial)) +   
-  geom_boxplot() +
-  labs(x="", colour="Micro polish")
-
-p3 <- ggplot(heightconfostats, aes(x=workedmaterial, y=Sku.mean, colour=workedmaterial)) +   
-  geom_boxplot() +
-  labs(x="", colour="Micro polish")
-
-p4 <- ggplot(heightconfostats, aes(x=workedmaterial, y=Sp.mean, colour=workedmaterial)) + 
-  geom_boxplot() +
-  labs(x="", colour="Micro polish")
-
-p5 <- ggplot(heightconfostats, aes(x=workedmaterial, y=Sv.mean, colour=workedmaterial)) + 
-  geom_boxplot() +
-  labs(x="", colour="Micro polish")
-
-p6 <- ggplot(heightconfostats, aes(x=workedmaterial, y=Sz.mean, colour=workedmaterial)) + 
-  geom_boxplot() +
-  labs(x="", colour="Micro polish")
-
-p7 <- ggplot(heightconfostats, aes(x=workedmaterial, y=Sa.mean, colour=workedmaterial)) + 
-  geom_boxplot() +
-  labs(x="", colour="Micro polish")
-
-ggarrange(p1, p2, p3, p4, p5, p6, p7, common.legend = TRUE, font.label = list(size=8), legend="bottom")
-
-ggsave("../plots/confostatsarcharea_boxplots.png")
-
-# Now Volume parameters
-
-volumeconfostats <- select(confostatsarch,sample,workedmaterial, VM.mean,Vv.mean,Vmp.mean,Vmc.mean,Vvc.mean,Vvv.mean)
-
-p8 <- ggplot(volumeconfostats, aes(x=workedmaterial, y=VM.mean, colour=workedmaterial)) + 
-  geom_boxplot() +
-  labs(x="", colour="Micro polish")
-
-p9 <- ggplot(volumeconfostats, aes(x=workedmaterial, y=Vv.mean, colour=workedmaterial)) +   
-  geom_boxplot() +
-  labs(x="", colour="Micro polish")
-
-p10 <- ggplot(volumeconfostats, aes(x=workedmaterial, y=Vmp.mean, colour=workedmaterial)) +   
-  geom_boxplot() +
-  labs(x="", colour="Micro polish")
-
-p11 <- ggplot(volumeconfostats, aes(x=workedmaterial, y=Vmc.mean, colour=workedmaterial)) + 
-  geom_boxplot() +
-  labs(x="", colour="Micro polish")
-
-p12 <- ggplot(volumeconfostats, aes(x=workedmaterial, y=Vvc.mean, colour=workedmaterial)) + 
-  geom_boxplot() +
-  labs(x="", colour="Micro polish")
-
-p13 <- ggplot(volumeconfostats, aes(x=workedmaterial, y=Vvv.mean, colour=workedmaterial)) + 
-  geom_boxplot() +
-  labs(x="", colour="Micro polish")
-
-ggarrange(p8, p9, p10, p11, p12, p13, common.legend = TRUE, font.label = list(size=8), legend="bottom")
-
-ggsave("../plots/confostatarchvolume_boxplots.png")
 
 ```
 
