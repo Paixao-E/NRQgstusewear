@@ -19,7 +19,7 @@ knitr::opts_chunk$set(comment = NA, message = FALSE, indent = "", error = TRUE)
 
 __Brief description of the script__
 
-This R markdown document reads, summarizes and plots data for: *Paixao et al. 2021. Functional analysis of the Middle Paleolithic Ground Stone Tools from Unit V of Nesher Ramla (Central Levante): the application of a multi-scale use-wear approach. Quaternary International*. The document contains:
+This R markdown document reads, summarizes and plots data for: *Paixao et al. 2021. The Middle Paleolithic Ground Stones Tools of Nesher Ramla Unit V (Southern Levant): a multi-scale use-wear approach for assessing the assemblage functional variability. Quaternary International*. The document contains:
 
 1. Manuscript's tables, 
 2. Manuscript's figures (data plots),

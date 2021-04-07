@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.5.13)  17 MAR 2021 13:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.5.13)  7 APR 2021 12:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -662,36 +662,36 @@ Overfull \hbox (668.07574pt too wide) in paragraph at lines 130--130
  []
 
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 153.
+(Font)              <10> on input line 158.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 153.
+(Font)              <7> on input line 158.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 153.
+(Font)              <5> on input line 158.
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 1
-65.
+70.
 (/Users/joaomarreiros/Library/TinyTeX/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Trying to load font information for TS1+lmtt on input line 
-200.
-(/Users/joaomarreiros/Library/TinyTeX/texmf-dist/tex/latex/lm/ts1lmtt.fd
-File: ts1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) [1
 
 {/Users/joaomarreiros/Library/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.
-map}]pdfTeX warning (ext4): destination with the same identifier (name{page.}) 
-has been already used, duplicate ignored
+map}]
+LaTeX Font Info:    Trying to load font information for TS1+lmtt on input line 
+205.
+(/Users/joaomarreiros/Library/TinyTeX/texmf-dist/tex/latex/lm/ts1lmtt.fd
+File: ts1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)pdfTeX warning (ext4): destination with the same identifier (name{page.}) has 
+been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.271 \newpage
+l.276 \newpage
                [2]
 LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <10> not available
-(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 284.
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 289.
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.356 \end{verbatim}
+l.361 \end{verbatim}
                      [3]
 <confocal_files/figure-latex/unnamed-chunk-3-1.pdf, id=62, 459.7175pt x 313.17p
 t>
@@ -699,7 +699,7 @@ File: confocal_files/figure-latex/unnamed-chunk-3-1.pdf Graphic file (type pdf)
 
 <use confocal_files/figure-latex/unnamed-chunk-3-1.pdf>
 Package pdftex.def Info: confocal_files/figure-latex/unnamed-chunk-3-1.pdf  use
-d on input line 379.
+d on input line 384.
 (pdftex.def)             Requested size: 459.7304pt x 313.17877pt.
 <confocal_files/figure-latex/unnamed-chunk-3-2.pdf, id=63, 459.7175pt x 313.17p
 t>
@@ -707,7 +707,7 @@ File: confocal_files/figure-latex/unnamed-chunk-3-2.pdf Graphic file (type pdf)
 
 <use confocal_files/figure-latex/unnamed-chunk-3-2.pdf>
 Package pdftex.def Info: confocal_files/figure-latex/unnamed-chunk-3-2.pdf  use
-d on input line 380.
+d on input line 385.
 (pdftex.def)             Requested size: 459.7304pt x 313.17877pt.
 <confocal_files/figure-latex/unnamed-chunk-3-3.pdf, id=64, 459.7175pt x 313.17p
 t>
@@ -715,7 +715,7 @@ File: confocal_files/figure-latex/unnamed-chunk-3-3.pdf Graphic file (type pdf)
 
 <use confocal_files/figure-latex/unnamed-chunk-3-3.pdf>
 Package pdftex.def Info: confocal_files/figure-latex/unnamed-chunk-3-3.pdf  use
-d on input line 381.
+d on input line 386.
 (pdftex.def)             Requested size: 459.7304pt x 313.17877pt.
 <confocal_files/figure-latex/unnamed-chunk-3-4.pdf, id=65, 459.7175pt x 313.17p
 t>
@@ -723,7 +723,7 @@ File: confocal_files/figure-latex/unnamed-chunk-3-4.pdf Graphic file (type pdf)
 
 <use confocal_files/figure-latex/unnamed-chunk-3-4.pdf>
 Package pdftex.def Info: confocal_files/figure-latex/unnamed-chunk-3-4.pdf  use
-d on input line 382.
+d on input line 387.
 (pdftex.def)             Requested size: 459.7304pt x 313.17877pt.
 <confocal_files/figure-latex/unnamed-chunk-3-5.pdf, id=66, 459.7175pt x 313.17p
 t>
@@ -731,7 +731,7 @@ File: confocal_files/figure-latex/unnamed-chunk-3-5.pdf Graphic file (type pdf)
 
 <use confocal_files/figure-latex/unnamed-chunk-3-5.pdf>
 Package pdftex.def Info: confocal_files/figure-latex/unnamed-chunk-3-5.pdf  use
-d on input line 383.
+d on input line 388.
 (pdftex.def)             Requested size: 459.7304pt x 313.17877pt.
 <confocal_files/figure-latex/unnamed-chunk-3-6.pdf, id=67, 459.7175pt x 313.17p
 t>
@@ -739,7 +739,7 @@ File: confocal_files/figure-latex/unnamed-chunk-3-6.pdf Graphic file (type pdf)
 
 <use confocal_files/figure-latex/unnamed-chunk-3-6.pdf>
 Package pdftex.def Info: confocal_files/figure-latex/unnamed-chunk-3-6.pdf  use
-d on input line 384.
+d on input line 389.
 (pdftex.def)             Requested size: 459.7304pt x 313.17877pt.
 <confocal_files/figure-latex/unnamed-chunk-3-7.pdf, id=68, 459.7175pt x 313.17p
 t>
@@ -747,7 +747,7 @@ File: confocal_files/figure-latex/unnamed-chunk-3-7.pdf Graphic file (type pdf)
 
 <use confocal_files/figure-latex/unnamed-chunk-3-7.pdf>
 Package pdftex.def Info: confocal_files/figure-latex/unnamed-chunk-3-7.pdf  use
-d on input line 385.
+d on input line 390.
 (pdftex.def)             Requested size: 459.7304pt x 313.17877pt.
 <confocal_files/figure-latex/unnamed-chunk-3-8.pdf, id=69, 459.7175pt x 313.17p
 t>
@@ -755,7 +755,7 @@ File: confocal_files/figure-latex/unnamed-chunk-3-8.pdf Graphic file (type pdf)
 
 <use confocal_files/figure-latex/unnamed-chunk-3-8.pdf>
 Package pdftex.def Info: confocal_files/figure-latex/unnamed-chunk-3-8.pdf  use
-d on input line 386.
+d on input line 391.
 (pdftex.def)             Requested size: 459.7304pt x 313.17877pt.
 <confocal_files/figure-latex/unnamed-chunk-3-9.pdf, id=70, 459.7175pt x 313.17p
 t>
@@ -763,7 +763,7 @@ File: confocal_files/figure-latex/unnamed-chunk-3-9.pdf Graphic file (type pdf)
 
 <use confocal_files/figure-latex/unnamed-chunk-3-9.pdf>
 Package pdftex.def Info: confocal_files/figure-latex/unnamed-chunk-3-9.pdf  use
-d on input line 387.
+d on input line 392.
 (pdftex.def)             Requested size: 459.7304pt x 313.17877pt.
 <confocal_files/figure-latex/unnamed-chunk-3-10.pdf, id=71, 459.7175pt x 313.17
 pt>
@@ -771,7 +771,7 @@ File: confocal_files/figure-latex/unnamed-chunk-3-10.pdf Graphic file (type pdf
 )
 <use confocal_files/figure-latex/unnamed-chunk-3-10.pdf>
 Package pdftex.def Info: confocal_files/figure-latex/unnamed-chunk-3-10.pdf  us
-ed on input line 388.
+ed on input line 393.
 (pdftex.def)             Requested size: 459.7304pt x 313.17877pt.
 <confocal_files/figure-latex/unnamed-chunk-3-11.pdf, id=72, 459.7175pt x 313.17
 pt>
@@ -779,7 +779,7 @@ File: confocal_files/figure-latex/unnamed-chunk-3-11.pdf Graphic file (type pdf
 )
 <use confocal_files/figure-latex/unnamed-chunk-3-11.pdf>
 Package pdftex.def Info: confocal_files/figure-latex/unnamed-chunk-3-11.pdf  us
-ed on input line 389.
+ed on input line 394.
 (pdftex.def)             Requested size: 459.7304pt x 313.17877pt.
 <confocal_files/figure-latex/unnamed-chunk-3-12.pdf, id=73, 459.7175pt x 313.17
 pt>
@@ -787,7 +787,7 @@ File: confocal_files/figure-latex/unnamed-chunk-3-12.pdf Graphic file (type pdf
 )
 <use confocal_files/figure-latex/unnamed-chunk-3-12.pdf>
 Package pdftex.def Info: confocal_files/figure-latex/unnamed-chunk-3-12.pdf  us
-ed on input line 390.
+ed on input line 395.
 (pdftex.def)             Requested size: 459.7304pt x 313.17877pt.
 <confocal_files/figure-latex/unnamed-chunk-3-13.pdf, id=74, 459.7175pt x 313.17
 pt>
@@ -795,7 +795,7 @@ File: confocal_files/figure-latex/unnamed-chunk-3-13.pdf Graphic file (type pdf
 )
 <use confocal_files/figure-latex/unnamed-chunk-3-13.pdf>
 Package pdftex.def Info: confocal_files/figure-latex/unnamed-chunk-3-13.pdf  us
-ed on input line 391.
+ed on input line 396.
 (pdftex.def)             Requested size: 459.7304pt x 313.17877pt.
 <confocal_files/figure-latex/unnamed-chunk-3-14.pdf, id=75, 459.7175pt x 313.17
 pt>
@@ -803,7 +803,7 @@ File: confocal_files/figure-latex/unnamed-chunk-3-14.pdf Graphic file (type pdf
 )
 <use confocal_files/figure-latex/unnamed-chunk-3-14.pdf>
 Package pdftex.def Info: confocal_files/figure-latex/unnamed-chunk-3-14.pdf  us
-ed on input line 392.
+ed on input line 397.
 (pdftex.def)             Requested size: 459.7304pt x 313.17877pt.
 <confocal_files/figure-latex/unnamed-chunk-3-15.pdf, id=76, 459.7175pt x 313.17
 pt>
@@ -811,7 +811,7 @@ File: confocal_files/figure-latex/unnamed-chunk-3-15.pdf Graphic file (type pdf
 )
 <use confocal_files/figure-latex/unnamed-chunk-3-15.pdf>
 Package pdftex.def Info: confocal_files/figure-latex/unnamed-chunk-3-15.pdf  us
-ed on input line 393.
+ed on input line 398.
 (pdftex.def)             Requested size: 459.7304pt x 313.17877pt.
 <confocal_files/figure-latex/unnamed-chunk-3-16.pdf, id=77, 459.7175pt x 313.17
 pt>
@@ -819,7 +819,7 @@ File: confocal_files/figure-latex/unnamed-chunk-3-16.pdf Graphic file (type pdf
 )
 <use confocal_files/figure-latex/unnamed-chunk-3-16.pdf>
 Package pdftex.def Info: confocal_files/figure-latex/unnamed-chunk-3-16.pdf  us
-ed on input line 394.
+ed on input line 399.
 (pdftex.def)             Requested size: 459.7304pt x 313.17877pt.
 <confocal_files/figure-latex/unnamed-chunk-3-17.pdf, id=78, 459.7175pt x 313.17
 pt>
@@ -827,7 +827,7 @@ File: confocal_files/figure-latex/unnamed-chunk-3-17.pdf Graphic file (type pdf
 )
 <use confocal_files/figure-latex/unnamed-chunk-3-17.pdf>
 Package pdftex.def Info: confocal_files/figure-latex/unnamed-chunk-3-17.pdf  us
-ed on input line 395.
+ed on input line 400.
 (pdftex.def)             Requested size: 459.7304pt x 313.17877pt.
 <confocal_files/figure-latex/unnamed-chunk-3-18.pdf, id=79, 459.7175pt x 313.17
 pt>
@@ -835,7 +835,7 @@ File: confocal_files/figure-latex/unnamed-chunk-3-18.pdf Graphic file (type pdf
 )
 <use confocal_files/figure-latex/unnamed-chunk-3-18.pdf>
 Package pdftex.def Info: confocal_files/figure-latex/unnamed-chunk-3-18.pdf  us
-ed on input line 396.
+ed on input line 401.
 (pdftex.def)             Requested size: 459.7304pt x 313.17877pt.
 <confocal_files/figure-latex/unnamed-chunk-3-19.pdf, id=80, 459.7175pt x 313.17
 pt>
@@ -843,7 +843,7 @@ File: confocal_files/figure-latex/unnamed-chunk-3-19.pdf Graphic file (type pdf
 )
 <use confocal_files/figure-latex/unnamed-chunk-3-19.pdf>
 Package pdftex.def Info: confocal_files/figure-latex/unnamed-chunk-3-19.pdf  us
-ed on input line 397.
+ed on input line 402.
 (pdftex.def)             Requested size: 459.7304pt x 313.17877pt.
 <confocal_files/figure-latex/unnamed-chunk-3-20.pdf, id=81, 459.7175pt x 313.17
 pt>
@@ -851,7 +851,7 @@ File: confocal_files/figure-latex/unnamed-chunk-3-20.pdf Graphic file (type pdf
 )
 <use confocal_files/figure-latex/unnamed-chunk-3-20.pdf>
 Package pdftex.def Info: confocal_files/figure-latex/unnamed-chunk-3-20.pdf  us
-ed on input line 398.
+ed on input line 403.
 (pdftex.def)             Requested size: 459.7304pt x 313.17877pt.
 <confocal_files/figure-latex/unnamed-chunk-3-21.pdf, id=82, 459.7175pt x 313.17
 pt>
@@ -859,7 +859,7 @@ File: confocal_files/figure-latex/unnamed-chunk-3-21.pdf Graphic file (type pdf
 )
 <use confocal_files/figure-latex/unnamed-chunk-3-21.pdf>
 Package pdftex.def Info: confocal_files/figure-latex/unnamed-chunk-3-21.pdf  us
-ed on input line 399.
+ed on input line 404.
 (pdftex.def)             Requested size: 459.7304pt x 313.17877pt.
 <confocal_files/figure-latex/unnamed-chunk-3-22.pdf, id=83, 463.7325pt x 313.17
 pt>
@@ -867,7 +867,7 @@ File: confocal_files/figure-latex/unnamed-chunk-3-22.pdf Graphic file (type pdf
 )
 <use confocal_files/figure-latex/unnamed-chunk-3-22.pdf>
 Package pdftex.def Info: confocal_files/figure-latex/unnamed-chunk-3-22.pdf  us
-ed on input line 400.
+ed on input line 405.
 (pdftex.def)             Requested size: 463.73842pt x 313.174pt.
 <confocal_files/figure-latex/unnamed-chunk-3-23.pdf, id=84, 463.7325pt x 314.17
 375pt>
@@ -875,7 +875,7 @@ File: confocal_files/figure-latex/unnamed-chunk-3-23.pdf Graphic file (type pdf
 )
 <use confocal_files/figure-latex/unnamed-chunk-3-23.pdf>
 Package pdftex.def Info: confocal_files/figure-latex/unnamed-chunk-3-23.pdf  us
-ed on input line 401.
+ed on input line 406.
 (pdftex.def)             Requested size: 463.73842pt x 314.17776pt.
 <confocal_files/figure-latex/unnamed-chunk-3-24.pdf, id=85, 463.7325pt x 313.17
 pt>
@@ -883,7 +883,7 @@ File: confocal_files/figure-latex/unnamed-chunk-3-24.pdf Graphic file (type pdf
 )
 <use confocal_files/figure-latex/unnamed-chunk-3-24.pdf>
 Package pdftex.def Info: confocal_files/figure-latex/unnamed-chunk-3-24.pdf  us
-ed on input line 402.
+ed on input line 407.
 (pdftex.def)             Requested size: 463.73842pt x 313.174pt.
 <confocal_files/figure-latex/unnamed-chunk-3-25.pdf, id=86, 463.7325pt x 313.17
 pt>
@@ -891,7 +891,7 @@ File: confocal_files/figure-latex/unnamed-chunk-3-25.pdf Graphic file (type pdf
 )
 <use confocal_files/figure-latex/unnamed-chunk-3-25.pdf>
 Package pdftex.def Info: confocal_files/figure-latex/unnamed-chunk-3-25.pdf  us
-ed on input line 403.
+ed on input line 408.
 (pdftex.def)             Requested size: 463.73842pt x 313.174pt.
 <confocal_files/figure-latex/unnamed-chunk-3-26.pdf, id=87, 463.7325pt x 313.17
 pt>
@@ -899,7 +899,7 @@ File: confocal_files/figure-latex/unnamed-chunk-3-26.pdf Graphic file (type pdf
 )
 <use confocal_files/figure-latex/unnamed-chunk-3-26.pdf>
 Package pdftex.def Info: confocal_files/figure-latex/unnamed-chunk-3-26.pdf  us
-ed on input line 404.
+ed on input line 409.
 (pdftex.def)             Requested size: 463.73842pt x 313.174pt.
 <confocal_files/figure-latex/unnamed-chunk-3-27.pdf, id=88, 463.7325pt x 313.17
 pt>
@@ -907,7 +907,7 @@ File: confocal_files/figure-latex/unnamed-chunk-3-27.pdf Graphic file (type pdf
 )
 <use confocal_files/figure-latex/unnamed-chunk-3-27.pdf>
 Package pdftex.def Info: confocal_files/figure-latex/unnamed-chunk-3-27.pdf  us
-ed on input line 405.
+ed on input line 410.
 (pdftex.def)             Requested size: 463.73842pt x 313.174pt.
 <confocal_files/figure-latex/unnamed-chunk-3-28.pdf, id=89, 459.7175pt x 313.17
 pt>
@@ -915,7 +915,7 @@ File: confocal_files/figure-latex/unnamed-chunk-3-28.pdf Graphic file (type pdf
 )
 <use confocal_files/figure-latex/unnamed-chunk-3-28.pdf>
 Package pdftex.def Info: confocal_files/figure-latex/unnamed-chunk-3-28.pdf  us
-ed on input line 406.
+ed on input line 411.
 (pdftex.def)             Requested size: 459.7304pt x 313.17877pt.
 <confocal_files/figure-latex/unnamed-chunk-3-29.pdf, id=90, 463.7325pt x 313.17
 pt>
@@ -923,7 +923,7 @@ File: confocal_files/figure-latex/unnamed-chunk-3-29.pdf Graphic file (type pdf
 )
 <use confocal_files/figure-latex/unnamed-chunk-3-29.pdf>
 Package pdftex.def Info: confocal_files/figure-latex/unnamed-chunk-3-29.pdf  us
-ed on input line 407.
+ed on input line 412.
 (pdftex.def)             Requested size: 463.73842pt x 313.174pt.
 <confocal_files/figure-latex/unnamed-chunk-3-30.pdf, id=91, 463.7325pt x 313.17
 pt>
@@ -931,7 +931,7 @@ File: confocal_files/figure-latex/unnamed-chunk-3-30.pdf Graphic file (type pdf
 )
 <use confocal_files/figure-latex/unnamed-chunk-3-30.pdf>
 Package pdftex.def Info: confocal_files/figure-latex/unnamed-chunk-3-30.pdf  us
-ed on input line 408.
+ed on input line 413.
 (pdftex.def)             Requested size: 463.73842pt x 313.174pt.
 <confocal_files/figure-latex/unnamed-chunk-3-31.pdf, id=92, 463.7325pt x 313.17
 pt>
@@ -939,7 +939,7 @@ File: confocal_files/figure-latex/unnamed-chunk-3-31.pdf Graphic file (type pdf
 )
 <use confocal_files/figure-latex/unnamed-chunk-3-31.pdf>
 Package pdftex.def Info: confocal_files/figure-latex/unnamed-chunk-3-31.pdf  us
-ed on input line 409.
+ed on input line 414.
 (pdftex.def)             Requested size: 463.73842pt x 313.174pt.
 <confocal_files/figure-latex/unnamed-chunk-3-32.pdf, id=93, 459.7175pt x 313.17
 pt>
@@ -947,7 +947,7 @@ File: confocal_files/figure-latex/unnamed-chunk-3-32.pdf Graphic file (type pdf
 )
 <use confocal_files/figure-latex/unnamed-chunk-3-32.pdf>
 Package pdftex.def Info: confocal_files/figure-latex/unnamed-chunk-3-32.pdf  us
-ed on input line 410.
+ed on input line 415.
 (pdftex.def)             Requested size: 459.7304pt x 313.17877pt.
 <confocal_files/figure-latex/unnamed-chunk-3-33.pdf, id=94, 459.7175pt x 313.17
 pt>
@@ -955,7 +955,7 @@ File: confocal_files/figure-latex/unnamed-chunk-3-33.pdf Graphic file (type pdf
 )
 <use confocal_files/figure-latex/unnamed-chunk-3-33.pdf>
 Package pdftex.def Info: confocal_files/figure-latex/unnamed-chunk-3-33.pdf  us
-ed on input line 411.
+ed on input line 416.
 (pdftex.def)             Requested size: 459.7304pt x 313.17877pt.
 <confocal_files/figure-latex/unnamed-chunk-3-34.pdf, id=95, 459.7175pt x 313.17
 pt>
@@ -963,170 +963,170 @@ File: confocal_files/figure-latex/unnamed-chunk-3-34.pdf Graphic file (type pdf
 )
 <use confocal_files/figure-latex/unnamed-chunk-3-34.pdf>
 Package pdftex.def Info: confocal_files/figure-latex/unnamed-chunk-3-34.pdf  us
-ed on input line 412.
+ed on input line 417.
 (pdftex.def)             Requested size: 459.7304pt x 313.17877pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 379--413
+Underfull \hbox (badness 10000) in paragraph at lines 384--418
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 379--413
+Underfull \hbox (badness 10000) in paragraph at lines 384--418
 []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 379--413
+Underfull \hbox (badness 10000) in paragraph at lines 384--418
 []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 379--413
+Underfull \hbox (badness 10000) in paragraph at lines 384--418
 []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 379--413
+Underfull \hbox (badness 10000) in paragraph at lines 384--418
 []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 379--413
+Underfull \hbox (badness 10000) in paragraph at lines 384--418
 []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 379--413
+Underfull \hbox (badness 10000) in paragraph at lines 384--418
 []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 379--413
+Underfull \hbox (badness 10000) in paragraph at lines 384--418
 []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 379--413
+Underfull \hbox (badness 10000) in paragraph at lines 384--418
 []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 379--413
+Underfull \hbox (badness 10000) in paragraph at lines 384--418
 []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 379--413
+Underfull \hbox (badness 10000) in paragraph at lines 384--418
 []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 379--413
+Underfull \hbox (badness 10000) in paragraph at lines 384--418
 []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 379--413
+Underfull \hbox (badness 10000) in paragraph at lines 384--418
 []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 379--413
+Underfull \hbox (badness 10000) in paragraph at lines 384--418
 []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 379--413
+Underfull \hbox (badness 10000) in paragraph at lines 384--418
 []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 379--413
+Underfull \hbox (badness 10000) in paragraph at lines 384--418
 []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 379--413
+Underfull \hbox (badness 10000) in paragraph at lines 384--418
 []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 379--413
+Underfull \hbox (badness 10000) in paragraph at lines 384--418
 []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 379--413
+Underfull \hbox (badness 10000) in paragraph at lines 384--418
 []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 379--413
+Underfull \hbox (badness 10000) in paragraph at lines 384--418
 []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 379--413
+Underfull \hbox (badness 10000) in paragraph at lines 384--418
 []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 379--413
+Underfull \hbox (badness 10000) in paragraph at lines 384--418
 []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 379--413
+Underfull \hbox (badness 10000) in paragraph at lines 384--418
 []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 379--413
+Underfull \hbox (badness 10000) in paragraph at lines 384--418
 []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 379--413
+Underfull \hbox (badness 10000) in paragraph at lines 384--418
 []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 379--413
+Underfull \hbox (badness 10000) in paragraph at lines 384--418
 []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 379--413
+Underfull \hbox (badness 10000) in paragraph at lines 384--418
 []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 379--413
+Underfull \hbox (badness 10000) in paragraph at lines 384--418
 []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 379--413
+Underfull \hbox (badness 10000) in paragraph at lines 384--418
 []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 379--413
+Underfull \hbox (badness 10000) in paragraph at lines 384--418
 []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 379--413
+Underfull \hbox (badness 10000) in paragraph at lines 384--418
 []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 379--413
+Underfull \hbox (badness 10000) in paragraph at lines 384--418
 []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 379--413
+Underfull \hbox (badness 10000) in paragraph at lines 384--418
 []
  []
 
@@ -1134,108 +1134,108 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.413 
+l.418 
        [4]pdfTeX warning (ext4): destination with the same identifier (name{pag
 e.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.413 
+l.418 
        [5 <./confocal_files/figure-latex/unnamed-chunk-3-1.pdf> <./confocal_fil
 es/figure-latex/unnamed-chunk-3-2.pdf>]pdfTeX warning (ext4): destination with 
 the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.413 
+l.418 
        [6 <./confocal_files/figure-latex/unnamed-chunk-3-3.pdf> <./confocal_fil
 es/figure-latex/unnamed-chunk-3-4.pdf>]pdfTeX warning (ext4): destination with 
 the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.413 
+l.418 
        [7 <./confocal_files/figure-latex/unnamed-chunk-3-5.pdf> <./confocal_fil
 es/figure-latex/unnamed-chunk-3-6.pdf>]pdfTeX warning (ext4): destination with 
 the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.413 
+l.418 
        [8 <./confocal_files/figure-latex/unnamed-chunk-3-7.pdf> <./confocal_fil
 es/figure-latex/unnamed-chunk-3-8.pdf>]pdfTeX warning (ext4): destination with 
 the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.413 
+l.418 
        [9 <./confocal_files/figure-latex/unnamed-chunk-3-9.pdf> <./confocal_fil
 es/figure-latex/unnamed-chunk-3-10.pdf>]pdfTeX warning (ext4): destination with
  the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.413 
+l.418 
        [10 <./confocal_files/figure-latex/unnamed-chunk-3-11.pdf> <./confocal_f
 iles/figure-latex/unnamed-chunk-3-12.pdf>]pdfTeX warning (ext4): destination wi
 th the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.413 
+l.418 
        [11 <./confocal_files/figure-latex/unnamed-chunk-3-13.pdf> <./confocal_f
 iles/figure-latex/unnamed-chunk-3-14.pdf>]pdfTeX warning (ext4): destination wi
 th the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.413 
+l.418 
        [12 <./confocal_files/figure-latex/unnamed-chunk-3-15.pdf> <./confocal_f
 iles/figure-latex/unnamed-chunk-3-16.pdf>]pdfTeX warning (ext4): destination wi
 th the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.413 
+l.418 
        [13 <./confocal_files/figure-latex/unnamed-chunk-3-17.pdf> <./confocal_f
 iles/figure-latex/unnamed-chunk-3-18.pdf>]pdfTeX warning (ext4): destination wi
 th the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.413 
+l.418 
        [14 <./confocal_files/figure-latex/unnamed-chunk-3-19.pdf> <./confocal_f
 iles/figure-latex/unnamed-chunk-3-20.pdf>]pdfTeX warning (ext4): destination wi
 th the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.413 
+l.418 
        [15 <./confocal_files/figure-latex/unnamed-chunk-3-21.pdf> <./confocal_f
 iles/figure-latex/unnamed-chunk-3-22.pdf>]pdfTeX warning (ext4): destination wi
 th the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.413 
+l.418 
        [16 <./confocal_files/figure-latex/unnamed-chunk-3-23.pdf> <./confocal_f
 iles/figure-latex/unnamed-chunk-3-24.pdf>]pdfTeX warning (ext4): destination wi
 th the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.413 
+l.418 
        [17 <./confocal_files/figure-latex/unnamed-chunk-3-25.pdf> <./confocal_f
 iles/figure-latex/unnamed-chunk-3-26.pdf>]pdfTeX warning (ext4): destination wi
 th the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.413 
+l.418 
        [18 <./confocal_files/figure-latex/unnamed-chunk-3-27.pdf> <./confocal_f
 iles/figure-latex/unnamed-chunk-3-28.pdf>]pdfTeX warning (ext4): destination wi
 th the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.413 
+l.418 
        [19 <./confocal_files/figure-latex/unnamed-chunk-3-29.pdf> <./confocal_f
 iles/figure-latex/unnamed-chunk-3-30.pdf>]pdfTeX warning (ext4): destination wi
 th the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.413 
+l.418 
        [20 <./confocal_files/figure-latex/unnamed-chunk-3-31.pdf> <./confocal_f
 iles/figure-latex/unnamed-chunk-3-32.pdf>]pdfTeX warning (ext4): destination wi
 th the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.419 \begin{Shaded}
+l.424 \begin{Shaded}
                      [21 <./confocal_files/figure-latex/unnamed-chunk-3-33.pdf>
  <./confocal_files/figure-latex/unnamed-chunk-3-34.pdf>]
 <confocal_files/figure-latex/unnamed-chunk-4-1.pdf, id=394, 453.695pt x 313.17p
@@ -1244,7 +1244,7 @@ File: confocal_files/figure-latex/unnamed-chunk-4-1.pdf Graphic file (type pdf)
 
 <use confocal_files/figure-latex/unnamed-chunk-4-1.pdf>
 Package pdftex.def Info: confocal_files/figure-latex/unnamed-chunk-4-1.pdf  use
-d on input line 433.
+d on input line 438.
 (pdftex.def)             Requested size: 453.6939pt x 313.16922pt.
 <confocal_files/figure-latex/unnamed-chunk-4-2.pdf, id=395, 453.695pt x 315.177
 5pt>
@@ -1252,13 +1252,13 @@ File: confocal_files/figure-latex/unnamed-chunk-4-2.pdf Graphic file (type pdf)
 
 <use confocal_files/figure-latex/unnamed-chunk-4-2.pdf>
 Package pdftex.def Info: confocal_files/figure-latex/unnamed-chunk-4-2.pdf  use
-d on input line 459.
+d on input line 464.
 (pdftex.def)             Requested size: 453.6939pt x 315.17673pt.
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.461 \begin{Shaded}
+l.466 \begin{Shaded}
                      [22 <./confocal_files/figure-latex/unnamed-chunk-4-1.pdf>]
 <confocal_files/figure-latex/unnamed-chunk-4-3.pdf, id=406, 453.695pt x 315.177
 5pt>
@@ -1266,13 +1266,13 @@ File: confocal_files/figure-latex/unnamed-chunk-4-3.pdf Graphic file (type pdf)
 
 <use confocal_files/figure-latex/unnamed-chunk-4-3.pdf>
 Package pdftex.def Info: confocal_files/figure-latex/unnamed-chunk-4-3.pdf  use
-d on input line 485.
+d on input line 490.
 (pdftex.def)             Requested size: 453.6939pt x 315.17673pt.
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.487 \begin{Shaded}
+l.492 \begin{Shaded}
                      [23 <./confocal_files/figure-latex/unnamed-chunk-4-2.pdf>]
 <confocal_files/figure-latex/unnamed-chunk-4-4.pdf, id=417, 457.71pt x 316.1812
 4pt>
@@ -1280,13 +1280,13 @@ File: confocal_files/figure-latex/unnamed-chunk-4-4.pdf Graphic file (type pdf)
 
 <use confocal_files/figure-latex/unnamed-chunk-4-4.pdf>
 Package pdftex.def Info: confocal_files/figure-latex/unnamed-chunk-4-4.pdf  use
-d on input line 512.
+d on input line 517.
 (pdftex.def)             Requested size: 457.72984pt x 316.19493pt.
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.514 \begin{Shaded}
+l.519 \begin{Shaded}
                      [24 <./confocal_files/figure-latex/unnamed-chunk-4-3.pdf>]
 <confocal_files/figure-latex/unnamed-chunk-4-5.pdf, id=428, 463.7325pt x 311.16
 25pt>
@@ -1294,19 +1294,19 @@ File: confocal_files/figure-latex/unnamed-chunk-4-5.pdf Graphic file (type pdf)
 
 <use confocal_files/figure-latex/unnamed-chunk-4-5.pdf>
 Package pdftex.def Info: confocal_files/figure-latex/unnamed-chunk-4-5.pdf  use
-d on input line 533.
+d on input line 538.
 (pdftex.def)             Requested size: 463.73842pt x 311.16649pt.
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.535 \begin{Shaded}
+l.540 \begin{Shaded}
                      [25 <./confocal_files/figure-latex/unnamed-chunk-4-4.pdf>]
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.588 \end{Shaded}
+l.593 \end{Shaded}
                    [26 <./confocal_files/figure-latex/unnamed-chunk-4-5.pdf>]
 <confocal_files/figure-latex/unnamed-chunk-5-1.pdf, id=451, 453.695pt x 313.17p
 t>
@@ -1314,7 +1314,7 @@ File: confocal_files/figure-latex/unnamed-chunk-5-1.pdf Graphic file (type pdf)
 
 <use confocal_files/figure-latex/unnamed-chunk-5-1.pdf>
 Package pdftex.def Info: confocal_files/figure-latex/unnamed-chunk-5-1.pdf  use
-d on input line 590.
+d on input line 595.
 (pdftex.def)             Requested size: 453.6939pt x 313.16922pt.
 <confocal_files/figure-latex/unnamed-chunk-5-2.pdf, id=452, 453.695pt x 313.17p
 t>
@@ -1322,19 +1322,19 @@ File: confocal_files/figure-latex/unnamed-chunk-5-2.pdf Graphic file (type pdf)
 
 <use confocal_files/figure-latex/unnamed-chunk-5-2.pdf>
 Package pdftex.def Info: confocal_files/figure-latex/unnamed-chunk-5-2.pdf  use
-d on input line 620.
+d on input line 625.
 (pdftex.def)             Requested size: 453.6939pt x 313.16922pt.
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.622 \begin{Shaded}
+l.627 \begin{Shaded}
                      [27 <./confocal_files/figure-latex/unnamed-chunk-5-1.pdf>]
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.678 \end{Shaded}
+l.683 \end{Shaded}
                    [28 <./confocal_files/figure-latex/unnamed-chunk-5-2.pdf>]
 <confocal_files/figure-latex/unnamed-chunk-6-1.pdf, id=483, 459.7175pt x 317.18
 5pt>
@@ -1342,13 +1342,13 @@ File: confocal_files/figure-latex/unnamed-chunk-6-1.pdf Graphic file (type pdf)
 
 <use confocal_files/figure-latex/unnamed-chunk-6-1.pdf>
 Package pdftex.def Info: confocal_files/figure-latex/unnamed-chunk-6-1.pdf  use
-d on input line 680.
+d on input line 685.
 (pdftex.def)             Requested size: 459.74442pt x 317.20355pt.
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.692 \begin{Shaded}
+l.697 \begin{Shaded}
                      [29 <./confocal_files/figure-latex/unnamed-chunk-6-1.pdf>]
 <confocal_files/figure-latex/unnamed-chunk-6-2.pdf, id=494, 459.7175pt x 315.17
 75pt>
@@ -1356,33 +1356,33 @@ File: confocal_files/figure-latex/unnamed-chunk-6-2.pdf Graphic file (type pdf)
 
 <use confocal_files/figure-latex/unnamed-chunk-6-2.pdf>
 Package pdftex.def Info: confocal_files/figure-latex/unnamed-chunk-6-2.pdf  use
-d on input line 726.
+d on input line 731.
 (pdftex.def)             Requested size: 459.74442pt x 315.19595pt.
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.728 \begin{Shaded}
+l.733 \begin{Shaded}
                      [30]pdfTeX warning (ext4): destination with the same ident
 ifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.789 \end{verbatim}
+l.794 \end{verbatim}
                      [31 <./confocal_files/figure-latex/unnamed-chunk-6-2.pdf>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 791.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 796.
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.791 \end{document}
+l.796 \end{document}
                      [32]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 791.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 796.
 (./confocal.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 791.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 791.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 796.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 796.
 Package rerunfilecheck Info: File `confocal.out' has not changed.
 (rerunfilecheck)             Checksum: C50CDA55DF755A4FFBB8E8A487A44DBB;2315.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 791.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 796.
  ) 
 Here is how much of TeX's memory you used:
  12703 strings out of 482411
@@ -1404,7 +1404,7 @@ c/lm/lmri10.pfb></Users/joaomarreiros/Library/TinyTeX/texmf-dist/fonts/type1/pu
 blic/lm/lmtk10.pfb></Users/joaomarreiros/Library/TinyTeX/texmf-dist/fonts/type1
 /public/lm/lmtt10.pfb></Users/joaomarreiros/Library/TinyTeX/texmf-dist/fonts/ty
 pe1/public/lm/lmtti10.pfb>
-Output written on confocal.pdf (32 pages, 594843 bytes).
+Output written on confocal.pdf (32 pages, 596280 bytes).
 PDF statistics:
  552 PDF objects out of 1000 (max. 8388607)
  376 compressed objects within 4 object streams
