@@ -3,9 +3,9 @@ title: "SOM3 - Reading and ploting data"
 author: "Paixao et al. 2021. The Middle Paleolithic Ground Stones Tools of Nesher Ramla Unit V (Southern Levant): a multi-scale use-wear approach for assessing the assemblage functional variability. Quaternary International"
 date: "`r Sys.time()`"
 output:
-  pdf_document: default
-  word_document: default
   html_document: default
+  word_document: default
+  pdf_document: default
 geometry: margin=1in
 fontsize: 9pt
 ---
@@ -130,15 +130,24 @@ ggplot(db1nr, aes (x = length, y = width, color = support)) +
   stat_ellipse() +
   labs(x="Length (mm)", y="Width (mm)", color = "Support") +
   facet_wrap(vars(typology)) +
-  scale_color_discrete(labels = c("Block", "Boulder", "Pebble"))
+  scale_color_discrete(labels = c("Block", "Boulder", "Pebble")) +
+  theme(axis.text.x = element_text(face= "bold"), axis.text.y = element_text(face = "bold"))
 
 ggsave("../plots/metrics_nr.png")
 
 ggplot(db1nr, aes(x = support, y = weight)) + 
   geom_boxplot() + 
-  labs(x="Typology", y="Weight (g)") +
+  labs(x="Typology", y="Weight (g)", face = "bold") +
   facet_wrap(vars(typology)) +
-    scale_x_discrete(labels = c('Block','Boulder','Pebble'))
+    scale_x_discrete(labels = c('Block','Boulder','Pebble')) +
+  theme(axis.text.x = element_text(face= "bold"), axis.text.y = element_text(face = "bold"))
+
+
+p + theme(axis.text.x = element_text(face="bold", color="#993333", 
+                           size=14, angle=45),
+          axis.text.y = element_text(face="bold", color="#993333", 
+                           size=14, angle=45))
+
 
 ggsave("../plots/weight_nr.png")
 

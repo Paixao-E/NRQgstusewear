@@ -3,9 +3,9 @@ title: "SOM4 - Reading and ploting Confocal data"
 author: "Paixao et al. 2021. The Middle Paleolithic Ground Stones Tools of Nesher Ramla Unit V (Southern Levant): a multi-scale use-wear approach for assessing the assemblage functional variability. Quaternary International"
 date: "`r Sys.time()`"
 output:
-  pdf_document: default
-  word_document: default
   html_document: default
+  word_document: default
+  pdf_document: default
 geometry: margin=1in
 fontsize: 9pt
 ---
@@ -118,7 +118,7 @@ for (i in num.var) {
 	     theme_classic() +
 	     # facet_wrap(~ sample) +
 	     labs(x = "material", y = gsub("\\.", " ", names(confoarch)[i])) +
-	     scale_colour_hue(h = c(25,225))
+	     scale_colour_hue(h = c(25,225)) +
   print(p)
   
   # saves the plots 
@@ -208,7 +208,7 @@ ggpairs(data=confoarch,
         legend = c(2,1)
         ) +
 
-    theme(legend.position = "right") +
+    theme(legend.position = "right", axis.text.x = element_text(face= "bold"), axis.text.y = element_text(face = "bold")) +
   labs(fill = "Micro polish type")
 
 ggsave("../plots/confocalarcharea_matrix.png")
@@ -224,7 +224,7 @@ ggpairs(data=confoarch,
         legend = c(2,1)
         ) +
 
-    theme(legend.position = "right") +
+    theme(legend.position = "right", axis.text.x = element_text(face= "bold"), axis.text.y = element_text(face = "bold")) +
   labs(fill = "Micro polish type")
 
 ggsave("../plots/confocalarchvolume_matrix.png")

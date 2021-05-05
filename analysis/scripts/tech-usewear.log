@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.5.13)  17 MAR 2021 15:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.5.13)  4 MAY 2021 10:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -685,13 +685,13 @@ File: tech-usewear_files/figure-latex/unnamed-chunk-4-1.pdf Graphic file (type
 pdf)
 <use tech-usewear_files/figure-latex/unnamed-chunk-4-1.pdf>
 Package pdftex.def Info: tech-usewear_files/figure-latex/unnamed-chunk-4-1.pdf 
- used on input line 398.
+ used on input line 399.
 (pdftex.def)             Requested size: 469.77148pt x 303.0026pt.
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.400 \begin{Shaded}
+l.401 \begin{Shaded}
                      [4]
 <tech-usewear_files/figure-latex/unnamed-chunk-4-2.pdf, id=85, 608.2725pt x 387
 .4475pt>
@@ -699,21 +699,21 @@ File: tech-usewear_files/figure-latex/unnamed-chunk-4-2.pdf Graphic file (type
 pdf)
 <use tech-usewear_files/figure-latex/unnamed-chunk-4-2.pdf>
 Package pdftex.def Info: tech-usewear_files/figure-latex/unnamed-chunk-4-2.pdf 
- used on input line 432.
+ used on input line 434.
 (pdftex.def)             Requested size: 469.7635pt x 299.22229pt.
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.434 \begin{Shaded}
+l.436 \begin{Shaded}
                      [5 <./tech-usewear_files/figure-latex/unnamed-chunk-4-1.pd
 f>]pdfTeX warning (ext4): destination with the same identifier (name{page.}) ha
 s been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.444 \newpage
+l.459 \newpage
                [6 <./tech-usewear_files/figure-latex/unnamed-chunk-4-2.pdf>]
-Overfull \hbox (10.77748pt too wide) in paragraph at lines 530--530
+Overfull \hbox (10.77748pt too wide) in paragraph at lines 545--545
 []|[]\T1/lmr/m/n/11 Hammerstone[]|  
  []
 
@@ -721,9 +721,9 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.557 \begin{Shaded}
+l.572 \begin{Shaded}
                      [7]
-Overfull \hbox (10.77748pt too wide) in paragraph at lines 660--660
+Overfull \hbox (10.77748pt too wide) in paragraph at lines 675--675
 []|[]\T1/lmr/m/n/11 Hammerstone[]|  
  []
 
@@ -734,9 +734,9 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.682 \end{longtable}
+l.697 \end{longtable}
                       [8]
-Overfull \hbox (10.77748pt too wide) in paragraph at lines 789--789
+Overfull \hbox (10.77748pt too wide) in paragraph at lines 804--804
 []|[]\T1/lmr/m/n/11 Hammerstone[]|  
  []
 
@@ -747,16 +747,16 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.811 \end{longtable}
+l.826 \end{longtable}
                       [9]
-Overfull \hbox (55.24345pt too wide) in paragraph at lines 836--836
+Overfull \hbox (55.24345pt too wide) in paragraph at lines 851--851
 []\T1/lmtt/m/n/10 Error in filter(., MACROTYPE == "1", MICROTYPE %in% c("A", "B
 ", "C", "D")): object \TS1/lmtt/m/n/10 '\T1/lmtt/m/n/10 db2nr\TS1/lmtt/m/n/10 '
  \T1/lmtt/m/n/10 not found[] 
  []
 
 
-Overfull \hbox (10.77748pt too wide) in paragraph at lines 917--917
+Overfull \hbox (10.77748pt too wide) in paragraph at lines 932--932
 []|[]\T1/lmr/m/n/11 Hammerstone[]|  
  []
 
@@ -767,16 +767,16 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.939 \end{longtable}
+l.954 \end{longtable}
                       [10]
-Overfull \hbox (55.24345pt too wide) in paragraph at lines 960--960
+Overfull \hbox (55.24345pt too wide) in paragraph at lines 975--975
 []\T1/lmtt/m/n/10 Error in filter(., MACROTYPE == "2", MICROTYPE %in% c("A", "B
 ", "C", "D")): object \TS1/lmtt/m/n/10 '\T1/lmtt/m/n/10 db2nr\TS1/lmtt/m/n/10 '
  \T1/lmtt/m/n/10 not found[] 
  []
 
 
-Overfull \hbox (10.77748pt too wide) in paragraph at lines 1041--1041
+Overfull \hbox (10.77748pt too wide) in paragraph at lines 1056--1056
 []|[]\T1/lmr/m/n/11 Hammerstone[]|  
  []
 
@@ -784,9 +784,9 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1070 \begin{Shaded}
+l.1085 \begin{Shaded}
                       [11]
-Overfull \hbox (10.77748pt too wide) in paragraph at lines 1217--1217
+Overfull \hbox (10.77748pt too wide) in paragraph at lines 1232--1232
 []|[]\T1/lmr/m/n/11 Hammerstone[]|  
  []
 
@@ -794,16 +794,16 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1239 \end{longtable}
+l.1254 \end{longtable}
                        [12]
-Overfull \hbox (76.2434pt too wide) in paragraph at lines 1261--1261
+Overfull \hbox (76.2434pt too wide) in paragraph at lines 1276--1276
 []\T1/lmtt/m/n/10 Error in select(a, TYPOLOGY, WEAR1_MARKS_TYPE, WEAR2_MARKS_TY
 PE, WEAR3_MARKS_TYPE): object \TS1/lmtt/m/n/10 '\T1/lmtt/m/n/10 a\TS1/lmtt/m/n/
 10 ' \T1/lmtt/m/n/10 not found[] 
  []
 
 
-Overfull \hbox (39.4935pt too wide) in paragraph at lines 1272--1272
+Overfull \hbox (39.4935pt too wide) in paragraph at lines 1287--1287
 []\T1/lmtt/m/n/10 Error in unite(., a, WEAR1_MARKS_TYPE, WEAR2_MARKS_TYPE, WEAR
 3_MARKS_TYPE, : object \TS1/lmtt/m/n/10 '\T1/lmtt/m/n/10 a\TS1/lmtt/m/n/10 ' \T
 1/lmtt/m/n/10 not found[] 
@@ -813,21 +813,21 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1320 \end{Shaded}
+l.1335 \end{Shaded}
                     [13]
-Overfull \hbox (10.77748pt too wide) in paragraph at lines 1387--1387
+Overfull \hbox (10.77748pt too wide) in paragraph at lines 1402--1402
 []|[]\T1/lmr/m/n/11 Hammerstone[]|  
  []
 
 
-Overfull \hbox (81.49338pt too wide) in paragraph at lines 1432--1432
+Overfull \hbox (81.49338pt too wide) in paragraph at lines 1447--1447
 []\T1/lmtt/m/n/10 Error in select(a, TYPOLOGY, WEAR1_MARKS_TYPE, WEAR2_MARKS_TY
 PE, WEAR3_MARKS_TYPE, : object \TS1/lmtt/m/n/10 '\T1/lmtt/m/n/10 a\TS1/lmtt/m/n
 /10 ' \T1/lmtt/m/n/10 not found[] 
  []
 
 
-Overfull \hbox (39.4935pt too wide) in paragraph at lines 1444--1444
+Overfull \hbox (39.4935pt too wide) in paragraph at lines 1459--1459
 []\T1/lmtt/m/n/10 Error in unite(., a, WEAR1_MARKS_TYPE, WEAR2_MARKS_TYPE, WEAR
 3_MARKS_TYPE, : object \TS1/lmtt/m/n/10 '\T1/lmtt/m/n/10 a\TS1/lmtt/m/n/10 ' \T
 1/lmtt/m/n/10 not found[] 
@@ -837,9 +837,9 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1451 \end{Shaded}
+l.1466 \end{Shaded}
                     [14]
-Overfull \hbox (10.77748pt too wide) in paragraph at lines 1559--1559
+Overfull \hbox (10.77748pt too wide) in paragraph at lines 1574--1574
 []|[]\T1/lmr/m/n/11 Hammerstone[]|  
  []
 
@@ -850,30 +850,30 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1581 \end{longtable}
+l.1596 \end{longtable}
                        [15]
-Overfull \hbox (18.49356pt too wide) in paragraph at lines 1607--1607
+Overfull \hbox (18.49356pt too wide) in paragraph at lines 1622--1622
 []\T1/lmtt/m/n/10 Error in select(a, WEAR1_LOCATION, WEAR1_MARKS_TYPE, WEAR2_MA
 RKS_TYPE, : object \TS1/lmtt/m/n/10 '\T1/lmtt/m/n/10 a\TS1/lmtt/m/n/10 ' \T1/lm
 tt/m/n/10 not found[] 
  []
 
 
-Overfull \hbox (39.4935pt too wide) in paragraph at lines 1619--1619
+Overfull \hbox (39.4935pt too wide) in paragraph at lines 1634--1634
 []\T1/lmtt/m/n/10 Error in unite(., a, WEAR1_MARKS_TYPE, WEAR2_MARKS_TYPE, WEAR
 3_MARKS_TYPE, : object \TS1/lmtt/m/n/10 '\T1/lmtt/m/n/10 a\TS1/lmtt/m/n/10 ' \T
 1/lmtt/m/n/10 not found[] 
  []
 
 
-Overfull \hbox (76.2434pt too wide) in paragraph at lines 1631--1631
+Overfull \hbox (76.2434pt too wide) in paragraph at lines 1646--1646
 []\T1/lmtt/m/n/10 Error in count(., WEAR1_LOCATION, WEAR2_LOCATION, WEAR3_LOCAT
 ION, WEAR4_LOCATION, : object \TS1/lmtt/m/n/10 '\T1/lmtt/m/n/10 b\TS1/lmtt/m/n/
 10 ' \T1/lmtt/m/n/10 not found[] 
  []
 
 
-Overfull \hbox (81.49338pt too wide) in paragraph at lines 1664--1664
+Overfull \hbox (81.49338pt too wide) in paragraph at lines 1679--1679
 []\T1/lmtt/m/n/10 Error in rename(., \TS1/lmtt/m/n/10 `\T1/lmtt/m/n/10 1st area
 \TS1/lmtt/m/n/10 ` \T1/lmtt/m/n/10 = WEAR1_LOCATION, \TS1/lmtt/m/n/10 `\T1/lmtt
 /m/n/10 2nd area\TS1/lmtt/m/n/10 ` \T1/lmtt/m/n/10 = WEAR2_LOCATION, : object \
@@ -885,14 +885,14 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1681 \end{Shaded}
+l.1696 \end{Shaded}
                     [16]
-Overfull \hbox (10.77748pt too wide) in paragraph at lines 1735--1735
+Overfull \hbox (10.77748pt too wide) in paragraph at lines 1750--1750
 []|[]\T1/lmr/m/n/11 Hammerstone[]|  
  []
 
 
-Overfull \hbox (18.49356pt too wide) in paragraph at lines 1778--1778
+Overfull \hbox (18.49356pt too wide) in paragraph at lines 1793--1793
 []\T1/lmtt/m/n/10 Error in select(a, WEAR1_LOCATION, WEAR1_MARKS_TYPE, WEAR2_MA
 RKS_TYPE, : object \TS1/lmtt/m/n/10 '\T1/lmtt/m/n/10 a\TS1/lmtt/m/n/10 ' \T1/lm
 tt/m/n/10 not found[] 
@@ -902,9 +902,9 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1816 \end{Shaded}
+l.1831 \end{Shaded}
                     [17]
-Overfull \hbox (76.2434pt too wide) in paragraph at lines 1832--1832
+Overfull \hbox (76.2434pt too wide) in paragraph at lines 1847--1847
 []\T1/lmtt/m/n/10 Error in rename(., \TS1/lmtt/m/n/10 `\T1/lmtt/m/n/10 1st area
 \TS1/lmtt/m/n/10 ` \T1/lmtt/m/n/10 = WEAR1_LOCATION, \TS1/lmtt/m/n/10 `\T1/lmtt
 /m/n/10 2nd area\TS1/lmtt/m/n/10 ` \T1/lmtt/m/n/10 = WEAR2_LOCATION): object \T
@@ -913,12 +913,12 @@ ound[]
  []
 
 
-Overfull \hbox (10.77748pt too wide) in paragraph at lines 1903--1903
+Overfull \hbox (10.77748pt too wide) in paragraph at lines 1918--1918
 []|[]\T1/lmr/m/n/11 Hammerstone[]|  
  []
 
 
-Overfull \hbox (18.49356pt too wide) in paragraph at lines 1947--1947
+Overfull \hbox (18.49356pt too wide) in paragraph at lines 1962--1962
 []\T1/lmtt/m/n/10 Error in select(a, WEAR1_LOCATION, WEAR1_MARKS_TYPE, WEAR2_MA
 RKS_TYPE, : object \TS1/lmtt/m/n/10 '\T1/lmtt/m/n/10 a\TS1/lmtt/m/n/10 ' \T1/lm
 tt/m/n/10 not found[] 
@@ -928,23 +928,23 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1949 \begin{Shaded}
+l.1964 \begin{Shaded}
                       [18]
-Overfull \hbox (39.4935pt too wide) in paragraph at lines 1959--1959
+Overfull \hbox (39.4935pt too wide) in paragraph at lines 1974--1974
 []\T1/lmtt/m/n/10 Error in unite(., a, WEAR1_MARKS_TYPE, WEAR2_MARKS_TYPE, WEAR
 3_MARKS_TYPE, : object \TS1/lmtt/m/n/10 '\T1/lmtt/m/n/10 a\TS1/lmtt/m/n/10 ' \T
 1/lmtt/m/n/10 not found[] 
  []
 
 
-Overfull \hbox (2.7436pt too wide) in paragraph at lines 1971--1971
+Overfull \hbox (2.7436pt too wide) in paragraph at lines 1986--1986
 []\T1/lmtt/m/n/10 Error in count(., WEAR1_LOCATION, WEAR2_LOCATION, WEAR3_LOCAT
 ION, a): object \TS1/lmtt/m/n/10 '\T1/lmtt/m/n/10 b\TS1/lmtt/m/n/10 ' \T1/lmtt/
 m/n/10 not found[] 
  []
 
 
-Overfull \hbox (81.49338pt too wide) in paragraph at lines 2003--2003
+Overfull \hbox (81.49338pt too wide) in paragraph at lines 2018--2018
 []\T1/lmtt/m/n/10 Error in rename(., \TS1/lmtt/m/n/10 `\T1/lmtt/m/n/10 1st area
 \TS1/lmtt/m/n/10 ` \T1/lmtt/m/n/10 = WEAR1_LOCATION, \TS1/lmtt/m/n/10 `\T1/lmtt
 /m/n/10 2nd area\TS1/lmtt/m/n/10 ` \T1/lmtt/m/n/10 = WEAR2_LOCATION, : object \
@@ -953,7 +953,7 @@ found[]
  []
 
 
-Overfull \hbox (10.77748pt too wide) in paragraph at lines 2074--2074
+Overfull \hbox (10.77748pt too wide) in paragraph at lines 2089--2089
 []|[]\T1/lmr/m/n/11 Hammerstone[]|  
  []
 
@@ -961,28 +961,28 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.2096 \end{longtable}
+l.2111 \end{longtable}
                        [19]pdfTeX warning (ext4): destination with the same ide
 ntifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.2149 \end{verbatim}
+l.2171 \end{verbatim}
                       [20]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2151.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2173.
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.2151 \end{document}
+l.2173 \end{document}
                       [21]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 2151.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 2173.
 (./tech-usewear.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2151.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2151.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2173.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2173.
 
 Package rerunfilecheck Info: File `tech-usewear.out' has not changed.
 (rerunfilecheck)             Checksum: 4A2AB34245EB47A0FE6DED97049896DC;2281.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2151.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2173.
  ) 
 Here is how much of TeX's memory you used:
  11412 strings out of 482411
@@ -1003,10 +1003,10 @@ lm/lmr17.pfb></Users/joaomarreiros/Library/TinyTeX/texmf-dist/fonts/type1/publi
 c/lm/lmri10.pfb></Users/joaomarreiros/Library/TinyTeX/texmf-dist/fonts/type1/pu
 blic/lm/lmtt10.pfb></Users/joaomarreiros/Library/TinyTeX/texmf-dist/fonts/type1
 /public/lm/lmtti10.pfb>
-Output written on tech-usewear.pdf (21 pages, 290912 bytes).
+Output written on tech-usewear.pdf (21 pages, 291729 bytes).
 PDF statistics:
- 215 PDF objects out of 1000 (max. 8388607)
- 176 compressed objects within 2 object streams
+ 217 PDF objects out of 1000 (max. 8388607)
+ 178 compressed objects within 2 object streams
  40 named destinations out of 1000 (max. 500000)
  99 words of extra memory for PDF output out of 10000 (max. 10000000)
 
