@@ -10,7 +10,8 @@ This repository contains the data and code for our paper:
 > Eduardo Paixão; João Marreiros; Laure Dubreuil; Walter Gneisinger;
 > Geoff Carver; Marion Prévost; Yossi Zaidner, (2021).
 > *`The Middle Paleolithic Ground Stones Tools of Nesher Ramla Unit V (Southern Levant): a multi-scale use-wear approach for assessing the assemblage functional variability`*.
-> Quaternary International <https://doi.org/xxx/xxx>
+> Quaternary International
+> <https://doi.org/10.1016/j.quaint.2021.06.009>
 
 Our pre-print is online here:
 
@@ -18,7 +19,7 @@ Our pre-print is online here:
 > Geoff Carver; Marion Prévost; Yossi Zaidner, (2021). *The Middle
 > Paleolithic Ground Stones Tools of Nesher Ramla Unit V (Southern
 > Levant): a multi-scale use-wear approach for assessing the assemblage
-> functional variability*. Name of journal/book, Accessed 05 May 2021.
+> functional variability*. Name of journal/book, Accessed 18 Jun 2021.
 > Online at <https://doi.org/xxx/xxx>
 
 ### How to cite
@@ -29,7 +30,7 @@ Please cite this compendium as:
 > Geoff Carver; Marion Prévost; Yossi Zaidner, (2021). *Compendium of R
 > code and data for The Middle Paleolithic Ground Stones Tools of Nesher
 > Ramla Unit V (Southern Levant): a multi-scale use-wear approach for
-> assessing the assemblage functional variability*. Accessed 05 May
+> assessing the assemblage functional variability*. Accessed 18 Jun
 > 2021. Online at <https://doi.org/xxx/xxx>
 
 ## Contents

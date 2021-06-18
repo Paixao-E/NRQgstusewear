@@ -20,7 +20,7 @@ Title <- "The Middle Paleolithic Ground Stones Tools of Nesher Ramla Unit V (Sou
 
 This repository contains the data and code for our paper:
 
-> Eduardo Paixão; João Marreiros; Laure Dubreuil; Walter Gneisinger; Geoff Carver; Marion Prévost; Yossi Zaidner, (2021). _`The Middle Paleolithic Ground Stones Tools of Nesher Ramla Unit V (Southern Levant): a multi-scale use-wear approach for assessing the assemblage functional variability`_. Quaternary International <https://doi.org/xxx/xxx>
+> Eduardo Paixão; João Marreiros; Laure Dubreuil; Walter Gneisinger; Geoff Carver; Marion Prévost; Yossi Zaidner, (2021). _`The Middle Paleolithic Ground Stones Tools of Nesher Ramla Unit V (Southern Levant): a multi-scale use-wear approach for assessing the assemblage functional variability`_. Quaternary International <https://doi.org/10.1016/j.quaint.2021.06.009>
 
 Our pre-print is online here:
 
