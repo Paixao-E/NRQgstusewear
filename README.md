@@ -19,8 +19,8 @@ Our pre-print is online here:
 > Geoff Carver; Marion Prévost; Yossi Zaidner, (2021). *The Middle
 > Paleolithic Ground Stones Tools of Nesher Ramla Unit V (Southern
 > Levant): a multi-scale use-wear approach for assessing the assemblage
-> functional variability*. Name of journal/book, Accessed 18 Jun 2021.
-> Online at <https://doi.org/xxx/xxx>
+> functional variability*. Name of journal/book, Accessed 24 Jun 2021.
+> Online at <https://doi.org/10.31219/osf.io/gyvw8>
 
 ### How to cite
 
@@ -30,7 +30,7 @@ Please cite this compendium as:
 > Geoff Carver; Marion Prévost; Yossi Zaidner, (2021). *Compendium of R
 > code and data for The Middle Paleolithic Ground Stones Tools of Nesher
 > Ramla Unit V (Southern Levant): a multi-scale use-wear approach for
-> assessing the assemblage functional variability*. Accessed 18 Jun
+> assessing the assemblage functional variability*. Accessed 24 Jun
 > 2021. Online at <https://doi.org/xxx/xxx>
 
 ## Contents
